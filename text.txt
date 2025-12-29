@@ -1,4 +1,69 @@
-send 0.0069 sui to 0x069bd5e649525777e5da73c151ff87ac4e82583ca4a5badb3dcab0b2c29c0656
-send 0.01 sui to 0x069bd5e649525777e5da73c151ff87ac4e82583ca4a5badb3dcab0b2c29c0656
+Brave SUI wallet: 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632
+Terminal Local SUI wallet: 0x069bd5e649525777e5da73c151ff87ac4e82583ca4a5badb3dcab0b2c29c0656
 
-Transfer request: {"type":"tool_result","data":{"status":"pending","type":"TRANSFER_REQUEST","details":{"recipientAddress":"0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632","amount":1,"token":"SUI","estimatedGas":"0.000001","networkFee":"0.00021"},"transaction":{"from":"user_wallet","to":"0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632","value":1},"timestamp":"2025-02-07T02:12:20.132Z","message":"Request to transfer 1 SUI to 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632"}}
+
+Searh superbowl winner 2025
+
+whats the price of sui
+
+find defi yield
+
+send 0.69 sui to 0x069bd5e649525777e5da73c151ff87ac4e82583ca4a5badb3dcab0b2c29c0656
+
+curl https://api.atoma.network/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer UYwhN9qTvQ7Fm9B2xHjuhZWmWlnUHJ" \
+  -d "{
+    "stream": true,
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "messages": [{
+            "role": "user",
+            "content": "What is the capital of France?"
+    }],
+    "max_tokens": 128
+  }"
+
+
+curl https://api.atoma.network/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer UYwhN9qTvQ7Fm9B2xHjuhZWmWlnUHJ" \
+  -d '{
+    "stream": true,
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "messages": [{
+            "role": "user",
+            "content": "What is the capital of France?"
+    }],
+    "max_tokens": 128
+  }'
+
+
+
+
+curl https://api.atoma.network/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer UYwhN9qTvQ7Fm9B2xHjuhZWmWlnUHJ" \
+  -d '{
+    "stream": true,
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "messages": [{
+            "role": "user",
+            "content": "What is the capital of France?"
+    }],
+    "max_tokens": 128
+  }'
+
+sui client pay-sui --recipients 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632 --input-coins 0xc9b447fff18f13fa035e028534b8344d5fc8a8760248fad10155e78f44dc3a52 --amounts 1500000000 --gas-budget 5000000
+
+GET list of tokens
+sui client gas 0x069bd5e649525777e5da73c151ff87ac4e82583ca4a5badb3dcab0b2c29c0656
+
+SEND entire balnce of that token
+
+sui client transfer-sui --to 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632 --sui-coin-object-id 0x043588425ad1df29a10d2926893d3b7a1edd53ee43ad09ada15208d5355082c4 --gas-budget 5000000
+sui client transfer-sui --to 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632 --sui-coin-object-id 0x18b9365b937270716610514b0b89e98e251207f9575f72d83ce00d3a7a0fca57 --gas-budget 5000000
+sui client transfer-sui --to 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632 --sui-coin-object-id 0x49209e93b85d6b83a2d7abbf88e2589186c9a5f5cc01043bc8fc66a421e2c77f --gas-budget 5000000
+sui client transfer-sui --to 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632 --sui-coin-object-id 0x74d3429694d052ba00dd78ce0fee1ad2ec88c22c4f4979f159f5d3eca1791367 --gas-budget 5000000
+sui client transfer-sui --to 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632 --sui-coin-object-id 0xa0e60ad74fdcb8f1005473d293e889ee34be8b386a082090683c5d9c083f595e --gas-budget 5000000
+sui client transfer-sui --to 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632 --sui-coin-object-id 0xb10ca1ec2e1d95b96e28ad93227066c245323ec7bcfa47c3b44d4b338769a6ab --gas-budget 5000000
+sui client transfer-sui --to 0x914bd0c5cee2e74843dd37eb45e8afe802bfe132f5227888906c703ed8b4b632 --sui-coin-object-id 0xbcfd315bccb0037aae6e57b65046da6163180b1b778b0b9885f1996e66c03531 --gas-budget 5000000
